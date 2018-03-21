@@ -1,0 +1,86 @@
+
+.header {
+    top: 0;
+    margin-left: 17vw;
+    margin-top: -20px;
+    background-color: #ADD8E6; /* Blue */
+    background: url(header.jpg);
+    background-size: cover;
+    width: 83vw;
+    height: 55vh;
+}
+
+.header h1 {
+    margin-top: -20px;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 4em;
+    color: #FAF0E6;
+    text-align: center;
+    padding-right: 5vw;
+    padding-top: 40vh;
+    opacity: 0.7;
+}
+
+
+/* The sidebar menu */
+.sidenav {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 18vw; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #5E6856; /* Blue */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40vh;
+}
+
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #111;
+    display: flex;
+    flex-direction: column;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.tabbar{
+    margin-top: -2px;
+    margin-left: 17vw; /* Same as the width of the sidebar */
+    padding: 0px 0px;
+    width: 83vw;   
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style page content */
+.main {
+    margin-left: 18vw; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    /*background-color: #F9F9F9;*/
+}
+
+
